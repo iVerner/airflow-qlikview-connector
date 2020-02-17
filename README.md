@@ -1,11 +1,11 @@
 # airflow-qlikview-connector
 
-##Description
+## Description
 
 This is Apache Airflow connector to QlikView Management System, allowing to execute QlikView Reload Tasks via QMS API.
 Tested with Apache Airflow 1.10.5 and QlikView 11.2
 
-##Installation
+## Installation
 1. Enter into environment where your Apache Airflow installed.
 
 2. Install dependencies of qlikview connector:
@@ -13,7 +13,7 @@ python3 -m pip install requests_ntlm zeep
 
 3. Copy contents of "contrib" folder into your Apache Airflow installation "contrib" folder
 
-##Usage
+## Usage
 
 1. Add new connection in Airflow (Admin->Connections)
   * Conn Id: name of connection, for example: qv_connection
